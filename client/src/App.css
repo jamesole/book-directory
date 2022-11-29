@@ -1,0 +1,142 @@
+body {
+  background-color: green;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.header {
+  background-color: violet;
+  height: 90px;
+  width: 100%;
+  border-bottom: 2px solid black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.header > div {
+  display: flex;
+  flex-direction: column;  
+  justify-content:left;
+}
+
+.header > div > h5 {
+  color: rgba(0, 0, 0, 0.6);
+}
+
+
+form {
+  width: 600px;
+  height: fit-content;
+  padding: 20px;
+  margin: 0 auto;
+  margin-top: 25px;
+  background-color: violet;
+  border: 2px solid black;
+  border-radius: 5%;
+}
+
+.label {
+  color: black;
+  font-weight:450;
+  margin-bottom: 10px;
+}
+
+form > h5 {
+  text-align: center;
+  text-decoration: underline;
+  margin-bottom: 20px;
+}
+
+.row {
+  margin-bottom: 15px;
+}
+
+textarea {
+  max-height: 150px;
+}
+
+.btn {
+  width: 100%;
+  background-color: green;
+  color: white;
+  margin-top: 15px;
+}
+
+#btn:hover, #btn:active {
+  background-color: green;
+  color: white;
+  font-weight: bolder;
+  border: none;
+  box-shadow: 0.5px 0.5px white;
+}
+
+.form-control:focus {
+  box-shadow: none;
+  border: 1px solid green;
+}
+
+
+.getBtnDiv {
+  height: fit-content;
+  width: 600px;
+  padding: 20px;
+  margin: 0 auto;
+  margin-top: 25px;
+  border: 2px solid black;
+  border-radius: 5%;
+  background-color: violet;
+}
+
+#getBtn {
+  margin-top: 0px;
+}
+
+#getBtn:hover, #getBtn:active {
+  background-color: green;
+  color: white;
+  font-weight: bolder;
+  border: none;
+  box-shadow: 1px 1px white;
+}
+
+#tab {
+  margin: 0 auto;
+  width: 800px;
+  margin-top: 30px;
+  background-color: violet;
+  border: 2px solid black;
+
+}
+
+.heading {
+  text-align: center;
+}
+
+#book-heading {
+  margin-top: 40px;
+  color: white;
+  font-family: sans-serif;
+  font-size: 30px;
+  text-decoration: underline;
+}
+
+.middle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.deleteBtn {
+  padding: 2.5px;
+  background-color: green;
+  color: white;
+  border: none;
+}
